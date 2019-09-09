@@ -1,5 +1,5 @@
 {
-	"name": "iqnection-modules/gdpr",
+	"name": "iqnection-modules/silverstripe-gdpr",
 	"description": "IQnection SilverStripe GDPR Notice Module",
 	"type": "silverstripe-vendormodule",
 	"license": "BSD-3-Clause",
