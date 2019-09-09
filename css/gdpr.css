@@ -1,0 +1,31 @@
+#iq-gdpr {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  background: #f1f1f1;
+  border-top: 3px solid #061678;
+}
+#iq-gdpr .iq-gdpr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+}
+#iq-gdpr .iq-gdpr__notice {
+  margin-right: 20px;
+  color: #000;
+  font-size: 0.9em;
+  line-height: 1.1;
+}
+#iq-gdpr .iq-gdpr__notice p {
+  font-size: 0.9em;
+  line-height: 1.1;
+}
+#iq-gdpr .iq-gdpr__dismiss a {
+	font-size:0.8em;
+}
+#iq-gdpr .iq-gdpr__notice p {
+	margin:0;
+}

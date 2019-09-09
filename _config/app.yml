@@ -1,0 +1,12 @@
+---
+Name: iqgdpr
+---
+SilverStripe\SiteConfig\Siteconfig:
+  extensions:
+    - IQnection\GDPR\SiteConfig\SiteConfig
+PageController:
+  extensions:
+    - IQnection\GDPR\Page\PageController
+SilverStripe\Control\Director:
+  rules:
+    '_accepts_cookies': IQnection\GDPR\Control\GDPRController

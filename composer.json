@@ -1,0 +1,27 @@
+{
+	"name": "iqnection-modules/gdpr",
+	"description": "IQnection SilverStripe GDPR Notice Module",
+	"type": "silverstripe-vendormodule",
+	"license": "BSD-3-Clause",
+	"keywords": ["iqnection","modules","gdpr"],
+	"authors": [
+		{
+			"name": "IQnection",
+            "homepage": "https://www.iqnection.com"
+		}
+	],
+	"require": {
+		"silverstripe/framework": "^4.1"
+	},
+	"extra": {
+		"expose": [
+			"css",
+			"javascript"
+		]
+	},
+	"autoload": {
+		"psr-4": {
+			"IQnection\\GDPR\\": "app/src/"
+		}
+	}
+}
