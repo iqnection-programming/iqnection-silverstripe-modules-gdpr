@@ -13,10 +13,10 @@ class PageController extends Extension
 {
 	public function onAfterInit()
 	{
-		Requirements::css('iqnection-modules/gdpr:css/gdpr.css');
-		Requirements::javascript('iqnection-modules/gdpr:javascript/gdpr.js');
+		Requirements::css('iqnection-modules/silverstripe-gdpr:css/gdpr.css');
+		Requirements::javascript('iqnection-modules/silverstripe-gdpr:javascript/gdpr.js');
 	}
-	
+
 	public function GDPRNotice()
 	{
 		if (!Cookie::get(GDPRController::Config()->get('gdpr_cookie_name')))
